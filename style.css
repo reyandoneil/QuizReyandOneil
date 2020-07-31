@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+    min-height: 100vh;
+    background: rgb(206, 202, 202);
+}
+
+h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container span{
+    font-weight: bold;
+    color:  #5009f4;
+}
+
+.container input{
+    background: transparent;
+    border: none;
+    margin-left: 20px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border:2px solid #333;
+    outline: none;
+}
+
+.container .check{
+    background:  #5009f4;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border: 2px solid  #5009f4;
+    border-radius: 5px;
+    outline: none;
+    text-transform: capitalize;
+    transition: .7s linear;
+}
+
+.container .check:hover{
+    background: none;
+    color:  #5009f4;
+}
+
+h2 span{
+    color: #5009f4;
+}
+
+hr{
+    height: 5px;
+    width: 400px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: linear-gradient(25deg,#fff, #5009f4);
+    margin-bottom: 20px;
+}
+
+b{
+    color:  #5009f4;
+    margin: 20px;
+}
+
+b span{
+    color: #ddd;
+}
+
+.container{
+    background: #ccc;
+    margin: 30px 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.container h3{
+    color: #333;
+    text-transform: capitalize;
+}
+
+.container h3 span{
+    color:  #5009f4;
+}
+
+.container h4{
+    margin-left: 80px;
+}
+
+.container h4 span{
+    margin-right: 10px;
+    color:  #5009f4;
+}
+
+
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <br>
+    <h2> <span>Coba Tebak?</span></h2>
+    <div class="container">
+        <h3>
+            <span>Coba tebak</span>
+            Berapa jumlah ketiak kambing??
+        </h3>
+
+        <h4><span>A)</span>4</h4>
+        <h4><span>B)</span>empat</h4>
+        <h4><span>C)</span>four</h4>
+        <h4><span>D)</span>terserah kamu aja</h4>
+        <span>Jawaban kamu?</span>
+        <input type="text" id="pertanyaan1" required>
+        <input type="button" value="check" class="check" onclick="quiz();">
+        <h3>
+            <span>Coba tebak</span>
+            Malam apa yang indah??
+        </h3>
+
+        <h4><span>A)</span>malam juamt</h4>
+        <h4><span>B)</span>malam minggu</h4>
+        <h4><span>C)</span>malam pertama</h4>
+        <h4><span>D)</span>malamar kamu</h4>
+        <span>Jawaban kamu?</span>
+        <input type="text" id="pertanyaan2" required>
+        <input type="button" value="check" class="check" onclick="check2();">
+        <script>
+            function quiz() {
+                var word = document.getElementById('pertanyaan1').value;
+                if (word === 'd' || word === 'D')
+                    alert("Jawaban anda benar");
+                else if (word === '') {
+                    alert("Silahkan diisi kotak jawabannya");
+                }
+
+                else {
+
+                    alert("Jawaban anda salah");
+                }
+
+
+            }
+            function check2() {
+                console.log('clicked')
+                var word = document.getElementById('pertanyaan2').value;
+                if (word === 'd' || word === 'D')
+                    alert("Jawaban anda benar");
+                else if (word === '') {
+                    alert("Silahkan diisi kotak jawabannya");
+                }
+
+                else {
+
+                    alert("Jawaban anda salah");
+                }
+            }
+        </script>
+</body>
+
+</html>
